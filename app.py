@@ -18,8 +18,8 @@ def hello_world():
     b = req_data['b']
     c = req_data['c']
     d = req_data['d']
-    e = req_data['e']
-    x = predict(float(a),float(b),float(c),float(d),float(e))[0][0]
+    f = req_data['f']
+    x = predict(float(a),float(b),float(c),float(d),float(f))[0][0]
     return jsonify(str(x))
 
 
