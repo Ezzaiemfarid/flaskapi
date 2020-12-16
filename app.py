@@ -10,7 +10,10 @@ def predict(IS, pachymetrie, pattern, couleur, DBFS):
     return prediction
 app = Flask(__name__)
 
-
+@app.route('/')
+def hello():
+    
+    return 'atef dahmen'
 @app.route('/j',methods=['POST','GET'])
 def hello_world():
     req_data = request.get_json()
