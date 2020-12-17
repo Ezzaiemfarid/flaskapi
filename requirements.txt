@@ -4,7 +4,7 @@
 #Jinja2==2.10
 #MarkupSafe==1.0
 #Werkzeug==0.14.1
-#tensorflow==2.0.0
+tensorflow
 #gunicorn==20.0.4
 
 Flask
