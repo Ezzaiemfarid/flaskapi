@@ -1,8 +1,19 @@
-gunicorn
+#gunicorn
 #click==6.7
-Flask
+#Flask
 #itsdangerous==0.24
 #Jinja2==2.10
 #MarkupSafe==1.0
 #Werkzeug==0.14.1
-tensorflow==2.2.0
+tensorflow==2.0.0
+Flask
+Flask-RESTful
+
+Jinja2
+Werkzeug
+
+itsdangerous
+gunicorn
+
+# to test mysql connectivity
+mysql-connector
