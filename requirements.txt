@@ -18,7 +18,7 @@ gunicorn
 # to test mysql connectivity
 mysql-connector
 
-h5py
+h5py==2.1.0
 Jinja2
 Keras
 numpy
