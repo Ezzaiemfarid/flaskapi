@@ -5,7 +5,7 @@
 #Jinja2==2.10
 #MarkupSafe==1.0
 #Werkzeug==0.14.1
-tensorflow==2.0.0
+#tensorflow==2.0.0
 Flask
 Flask-RESTful
 
@@ -17,3 +17,17 @@ gunicorn
 
 # to test mysql connectivity
 mysql-connector
+
+h5py
+Jinja2
+Keras
+numpy
+pandas
+Pillow
+request
+scipy
+tensorboard
+tensorflow==2.0.0
+tqdm
+urllib3
+utils
