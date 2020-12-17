@@ -1,7 +1,10 @@
 from flask import Flask, request, jsonify
 from tensorflow import keras
 import numpy as np
+print("1")
 model = keras.models.load_model('m.h5')
+print("2")
+
 def predict(IS, pachymetrie, pattern, couleur, DBFS):
     yy = np.array([[IS, pachymetrie, pattern, couleur, DBFS]], np.float)
 
