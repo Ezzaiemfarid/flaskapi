@@ -1,7 +1,6 @@
 Flask
 gunicorn
-keras
-numpy
+
 scipy==1.4.1
 h5py==2.10.0
 TensorFlow==2.2.0
