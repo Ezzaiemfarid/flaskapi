@@ -2,3 +2,4 @@ Flask
 gunicorn
 keras
 numpy
+TensorFlow==2.2.0
