@@ -28,6 +28,5 @@ def hello_world():
     x = predict(float(a),float(b),float(c),float(d),float(f))[0][0]
     return jsonify(str(x))
 
-
 if __name__ == '__main__':
     app.run(debug=True)
